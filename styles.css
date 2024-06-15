@@ -124,6 +124,32 @@ h1{
     .container .footer{
         padding: 1em 2em;
     }
+    .bg-shape1{
+        width: 60px;
+        height: 60px;
+        border-radius: 9999px;
+        position: relative;
+        animation: one 10s infinite;
+        mix-blend-mode: multiply;
+    }
+
+    .bg-shape2{
+        width: 20px;
+        height: 20px;
+        border-radius: 9999px;
+        position: relative;
+        animation: two 10s infinite;
+        mix-blend-mode: multiply;
+    }
+
+    .bg-shape3{
+        width: 1200px;
+        height: 1200px;
+        border-radius: 9999px;
+        position: relative;
+        animation: three 10s infinite;
+        mix-blend-mode: multiply;
+    }
 }
 
 
