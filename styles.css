@@ -132,7 +132,6 @@ h1{
         animation: one 10s infinite;
         mix-blend-mode: multiply;
     }
-
     .bg-shape2{
         width: 20px;
         height: 20px;
@@ -141,7 +140,6 @@ h1{
         animation: two 10s infinite;
         mix-blend-mode: multiply;
     }
-
     .bg-shape3{
         width: 10px;
         height: 10px;
@@ -149,6 +147,10 @@ h1{
         position: relative;
         animation: three 10s infinite;
         mix-blend-mode: multiply;
+    }
+    a:visited{
+        text-decoration: none;
+        color: #e196b2;
     }
 }
 
