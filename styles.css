@@ -143,8 +143,8 @@ h1{
     }
 
     .bg-shape3{
-        width: 1200px;
-        height: 1200px;
+        width: 10px;
+        height: 10px;
         border-radius: 9999px;
         position: relative;
         animation: three 10s infinite;
