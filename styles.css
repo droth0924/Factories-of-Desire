@@ -117,17 +117,6 @@ h1{
     h1{
         font-size: 10px; 
     }
-    .container{
-        overflow: hidden;
-        font-size: 14px;
-    }
-    .container .nav,
-    .container .footer{
-        padding: 1em 2em;
-        text-decoration: none;
-        color:#e196b2;
-        mix-blend-mode: multiply;
-    }
     .bg-shape1{
         width: 10px;
         height: 10px;
@@ -151,15 +140,6 @@ h1{
         position: relative;
         animation: three 10s infinite;
         mix-blend-mode: multiply;
-    }
-    .nav-items a {
-        text-decoration: none;
-        color:#e196b2;
-        mix-blend-mode: multiply;
-    }
-    a:visited{
-        text-decoration: none;
-        color: #e196b2;
     }
 }
 
