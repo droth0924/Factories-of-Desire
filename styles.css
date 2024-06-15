@@ -117,6 +117,13 @@ h1{
     h1{
         font-size: 60px; 
     }
+    .container{
+        font-size: 10px;
+    }
+    .container .nav,
+    .container .footer{
+        padding: 1em 2em;
+    }
 }
 
 
