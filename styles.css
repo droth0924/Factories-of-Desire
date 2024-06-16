@@ -113,51 +113,7 @@ h1{
     mix-blend-mode: lighten;
 }
 
-@media only screen and (max-width: 500px){
-    h1{
-        font-size: 40px;
-        text-decoration: none;
-    }
-    .container{
-        font-size: 10px;
-    }
-    .container .nav,
-    .container .footer{
-        padding: 1em;
-    }
-    .bg-shape1{
-        width: 600px;
-        height: 600px;
-        border-radius: 9999px;
-        position: relative;
-        animation: one 10s infinite;
-        mix-blend-mode: multiply;
-    }
-    .bg-shape2{
-        width: 400px;
-        height: 400px;
-        border-radius: 9999px;
-        position: relative;
-        animation: two 10s infinite;
-        mix-blend-mode: multiply;
-    }
-    .bg-shape3{
-        width: 400px;
-        height: 400px;
-        border-radius: 9999px;
-        position: relative;
-        animation: three 10s infinite;
-        mix-blend-mode: multiply;
-    }
-    .nav-items a:not(:last-child) {
-        padding-right: 1em;
-    }
-    .container{
-        height: 80vh;
-        font-size: 10px;
-        overflow: hidden;
-    }
-}
+
 
 
 .container {
