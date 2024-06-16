@@ -151,7 +151,12 @@ h1{
     }
     .nav-items a:not(:last-child) {
         padding-right: 1em;
-      }
+    }
+    .container{
+        height: 80vh;
+        font-size: 10px;
+        overflow: hidden;
+    }
 }
 
 
