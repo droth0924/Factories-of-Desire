@@ -115,19 +115,21 @@ h1{
 
 @media only screen and (max-width: 600px){
     h1{
-        font-size: 50px; 
+        font-size: 50px;
+        text-decoration: none !important;
     }
     .container {
         font-size: 10px !important;
         padding: 1px;
-        overflow: hidden;
+        overflow: hidden !important;
+        height: 100vh !important;
     }
     .container .nav,
     .container .footer{
-        padding: 5px;
-        text-decoration: none;
-        color:#e196b2;
-        mix-blend-mode: multiply;
+        padding: 5px !important;
+        text-decoration: none !important;
+        color:#e196b2 !important;
+        mix-blend-mode: multiply !important;
     }
     .bg-shape1{
         width: 500px !important;
