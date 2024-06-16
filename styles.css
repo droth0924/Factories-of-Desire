@@ -115,7 +115,8 @@ h1{
 
 @media only screen and (max-width: 800px){
     h1{
-        font-size: 60px; 
+        font-size: 60px;
+        text-decoration: none;
     }
     .container{
         font-size: 10px;
