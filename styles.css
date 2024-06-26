@@ -28,7 +28,9 @@
 
 /*BACKGROUND GRADIENT*/
 
-body{
+html,body{
+    width: 100vw;
+    height: 100vh;
     justify-content: center;
     box-sizing: border-box;
     background-color: #ffcbea;
