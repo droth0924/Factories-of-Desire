@@ -194,10 +194,12 @@ h1{
 
 @media only screen and (max-width: 600px){
     h1{
-        font-size: 3rem;
+        font-size: 12px;
         -webkit-text-size-adjust: 100%;
         mix-blend-mode: multiply;
         color: #e196b2;
         opacity: 30%;
+        appearance: auto;
+        -webkit-appearance: none;
     }
 }
