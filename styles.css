@@ -23,6 +23,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-appearance: none;
   }
   
   html, body{
@@ -30,6 +31,7 @@
     height: 100vh;
     overflow: hidden;
     background: #ffcbea;
+    -webkit-appearance: none;
   }
   
   a{
