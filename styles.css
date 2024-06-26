@@ -72,6 +72,14 @@ h1{
         padding: 0;
     }
 
+    html,body{
+        width: 100vw;
+        height: 60vh;
+        justify-content: center;
+        box-sizing: border-box;
+        background-color: #ffcbea;
+    }
+
     h1{
         left: 0;
         line-height: 200px;
