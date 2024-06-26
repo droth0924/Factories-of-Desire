@@ -198,5 +198,7 @@ h1{
         mix-blend-mode: multiply;
         color: #e196b2;
         opacity: 30%;
+        appearance: auto;
+        -webkit-appearance: none;
     }
 }
