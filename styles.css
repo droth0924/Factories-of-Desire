@@ -210,8 +210,8 @@ h1{
         height: 600px;
         border-radius: 9999px;
         position: relative;
-        animation: nonee;
-        -webkit-animation: none;
+        animation: one 1s infinite;
+        -webkit-animation: one 1s infinite;
         mix-blend-mode: multiply;
     }
     
@@ -220,8 +220,8 @@ h1{
         height: 400px;
         border-radius: 9999px;
         position: relative;
-        animation: none;
-        -webkit-animation: none;
+        animation: two 1s infinite;
+        -webkit-animation: one 1s infinite;
         mix-blend-mode: multiply;
     }
     
@@ -230,8 +230,8 @@ h1{
         height: 600px;
         border-radius: 9999px;
         position: relative;
-        animation: three none;
-        -webkit-animation: none;
+        animation: three 1s infinite;
+        -webkit-animation: one 1s infinite;
         mix-blend-mode: multiply;
     }
 
