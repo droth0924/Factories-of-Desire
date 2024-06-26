@@ -48,77 +48,6 @@ body{
     justify-content: center;
 }
 
-.bg-shape1{
-    width: 1000px;
-    height: 1000px;
-    border-radius: 9999px;
-    position: relative;
-    animation: one 10s infinite;
-    mix-blend-mode: multiply;
-}
-
-.bg-shape2{
-    width: 800px;
-    height: 800px;
-    border-radius: 9999px;
-    position: relative;
-    animation: two 10s infinite;
-    mix-blend-mode: multiply;
-}
-
-.bg-shape3{
-    width: 1200px;
-    height: 1200px;
-    border-radius: 9999px;
-    position: relative;
-    animation: three 10s infinite;
-    mix-blend-mode: multiply;
-}
-
-@keyframes one{
-    0%{left: 0px; top: 0px;}
-    25%{left: -100px; top: 70px;}
-    50%{left: 20px; top: 150px;}
-    75%{left: 50px; top: 100px;}
-    100%{left: 0px; top: 0px;}
-}
-
-@keyframes two{
-    0%{left: 0px; top: 0px;}
-    25%{left: 50px; top: 10px;}
-    50%{left: 100px; top: 50px;}
-    75%{left: 50px; top: 100px;}
-    100%{left: 0px; top: 0px;}
-}
-
-@keyframes three{
-    0%{left: 0px; top: 0px;}
-    25%{left: 100px; top: 0px;}
-    50%{left: 60px; top: 60px;}
-    75%{left: 50px; top: 100px;}
-    100%{left: 0px; top: 0px;}
-}
-
-.opacity-50{
-    opacity: .5;
-}
-
-.bg-blur{
-    filter: blur(90px);
-}
-
-.bg-pink1{
-    background-color: #cc7997;
-}
-
-.bg-pink2{
-    background-color: #e6a9bf;
-}
-
-.bg-pink3{
-    background-color: #cc7997;
-}
-
 /*PHONE NUMBER TEXT*/
 
 h1{
@@ -131,47 +60,12 @@ h1{
     width: 100%;
     font-family: "PPSuply Bold";
     font-size: 12rem;
-    color: #e4b9c9;
-    mix-blend-mode: lighten;
+    color: #e196b2;
+    /*mix-blend-mode: lighten;*/
 }
 
 @media only screen and (max-width: 600px){
-    .container {
-        font-size: 10px !important;
-        padding: 1px;
-        overflow: hidden;
-    }
-    .container .nav,
-    .container .footer{
-        padding: 5px;
-        text-decoration: none;
-        color:#e196b2;
-        mix-blend-mode: multiply;
-    }
-    .bg-shape1{
-        width: 500px !important;
-        height: 500px !important;
-        border-radius: 9999px;
-        position: relative;
-        animation: one 10s infinite;
-        mix-blend-mode: multiply;
-    }
-    .bg-shape2{
-        width: 200px !important;
-        height: 200px !important;
-        border-radius: 9999px;
-        position: relative;
-        animation: two 10s infinite;
-        mix-blend-mode: multiply;
-    }
-    .bg-shape3{
-        width: 400px !important;
-        height: 400px !important;
-        border-radius: 9999px;
-        position: relative;
-        animation: three 10s infinite;
-        mix-blend-mode: multiply;
-    }
+
 }
 
 
