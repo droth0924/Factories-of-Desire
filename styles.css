@@ -20,128 +20,55 @@
 }
 
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
-}
-
-
-/*BACKGROUND GRADIENT*/
-
-html,body{
+  }
+  
+  html, body{
     width: 100vw;
     height: 100vh;
-    justify-content: center;
-    box-sizing: border-box;
-    background-color: #ffcbea;
-}
-
-.absolute{
-    position: absolute;
-    top: 50px I !important;
-    inset: 0;
-    justify-content: center;
-    display: inline-flex;
-    flex-direction: row;
     overflow: hidden;
-}
-
-.justify-center{
-    justify-content: center;
-}
-
-/*PHONE NUMBER TEXT*/
-
-h1{
-    left: 0;
-    line-height: 200px;
-    margin-top: -100px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-    font-family: "PPSuply Bold";
-    font-size: 12rem;
-    color: #e196b2;
-    /*mix-blend-mode: lighten;*/
-}
-
-@media only screen and (max-width: 600px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
-    html,body{
-        width: 100vw;
-        height: 60vh;
-        justify-content: center;
-        box-sizing: border-box;
-        background-color: #ffcbea;
-    }
-
-    h1{
-        left: 0;
-        line-height: 200px;
-        margin-top: -100px;
-        position: absolute;
-        text-align: center;
-        top: 50%;
-        width: 100%;
-        font-family: "PPSuply Bold";
-        font-size: 8px;
-        color: #e196b2;
-        /*mix-blend-mode: lighten;*/
-    }
-}
-
-
-.container {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    z-index: 1;
-    font-family: "PPSuply Ultralight";
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    font-size: 14px;
+    background: #ffcbea;
   }
   
-  .container .nav,
-  .container .footer {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding: 2em 4em;
+  a{
+    position: relative;
     text-decoration: none;
     color:#e196b2;
-    mix-blend-mode: multiply;
   }
-
-  .nav a{
-    text-decoration: none;
-  }
-
-  .nav a:hover{
+  
+  a:hover{
     color: #ab5676;
   }
+  .nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 10px 20px;
+    font-family: "PPSuply Ultralight";
+  }
   
-  .nav-items a {
-    text-decoration: none;
+  .footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: +1;
     color:#e196b2;
-    mix-blend-mode: multiply;
+    font-family: "PPSuply Ultralight";
   }
   
-  .nav-items a:not(:last-child) {
-    padding-right: 4em;
-  }
-
-  a:visited{
-    text-decoration: none;
-    color: #e196b2;
+  .header {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-around;
   }
