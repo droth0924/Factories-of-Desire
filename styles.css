@@ -87,7 +87,7 @@ h1{
     font-family: "PPSuply Bold";
     font-size: 8rem;
     color: #e4b9c9;
-    mix-blend-mode: lighten;
+    mix-blend-mode: multiply;
     appearance: auto;
     -webkit-appearance: none;
 }
