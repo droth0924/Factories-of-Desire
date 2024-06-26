@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'PPSuply Ultralight';
+    src: url(Fonts/PPSupplySans-Ultralight.ttf) format('ttf'),
+    url(Fonts/PPSupplySans-Ultralight.woff) format('woff');
+}
+@font-face {
+    font-family: 'PPSuply Regular';
+    src: url(Fonts/PPSupplySans-Regular.ttf) format('ttf'),
+    url(Fonts/PPSupplySans-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'PPSuply Medium';
+    src: url(Fonts/PPSupplySans-Medium.ttf) format('ttf'),
+    url(Fonts/PPSupplySans-Medium.woff) format('woff');
+}
+@font-face {
+    font-family: 'PPSuply Bold';
+    src: url(Fonts/PPSupplySans-Bold.ttf) format('ttf'),
+    url(Fonts/PPSupplySans-Bold.woff) format('woff');
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /*appearance: auto;
+    -webkit-appearance: none;*/
+  }
+  
+html, body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #ffcbea;
+    /*appearance: auto;
+    -webkit-appearance: none;*/
+  }
+  
+a{
+    position: relative;
+    text-decoration: none;
+    color:#e196b2;
+    mix-blend-mode: multiply;
+  }
+  
+a:hover{
+    color: #ab5676;
+  }
+
+.nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 10px 20px;
+    font-family: "PPSuply Ultralight";
+    mix-blend-mode: multiply;
+    z-index: +1;
+  }
+  
+  .footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: +1;
+    color:#e196b2;
+    font-family: "PPSuply Ultralight";
+    mix-blend-mode: multiply;
+  }
+
+.fa .fa-instagram{
+    padding: 30px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #e196b2;
+    z-index: +1;
+    font-family: "PPSuply Ultralight";
+}
+
+span{
+    font-family: "PPSuply Ultralight";
+}
+  
+
+h1{
+    left: 0;
+    line-height: 25px;
+    margin-top: -100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    position: absolute;
+    text-align: justify;
+    justify-content: center;
+    top: 45%;
+    width: 100%;
+    font-family: "PPSuply Ultralight";
+    font-size: 1rem;
+    font-weight: 100;
+    float: left;
+    color: #e196b2;
+    mix-blend-mode: multiply;
+}
+
+/*BACKGROUND GRADIENT*/
+.absolute{
+    position: absolute;
+    top: 50px I !important;
+    inset: 0;
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.bg-shape1{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 9999px;
+    position: relative;
+    animation: one 10s infinite;
+    mix-blend-mode: multiply;
+}
+
+.bg-shape2{
+    width: 800px;
+    height: 800px;
+    border-radius: 9999px;
+    position: relative;
+    animation: two 10s infinite;
+    mix-blend-mode: multiply;
+}
+
+.bg-shape3{
+    width: 1200px;
+    height: 1200px;
+    border-radius: 9999px;
+    position: relative;
+    animation: three 10s infinite;
+    mix-blend-mode: multiply;
+}
+
+@keyframes one{
+    0%{left: 0px; top: 0px;}
+    25%{left: -100px; top: 70px;}
+    50%{left: 20px; top: 150px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes two{
+    0%{left: 0px; top: 0px;}
+    25%{left: 50px; top: 10px;}
+    50%{left: 100px; top: 50px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+@keyframes three{
+    0%{left: 0px; top: 0px;}
+    25%{left: 100px; top: 0px;}
+    50%{left: 60px; top: 60px;}
+    75%{left: 50px; top: 100px;}
+    100%{left: 0px; top: 0px;}
+}
+
+.opacity-50{
+    opacity: .5;
+}
+
+.bg-blur{
+    filter: blur(90px);
+}
+
+.bg-pink1{
+    background-color: #cc7997;
+}
+
+.bg-pink2{
+    background-color: #e6a9bf;
+}
+
+.bg-pink3{
+    background-color: #cc7997;
+}
+
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 2.8rem;
+        mix-blend-mode: multiply;
+        color: #e196b2;
+        opacity: 30%;
+    }
+    
+    .bg-shape1{
+        width: 100px;
+        height: 600px;
+        border-radius: 9999px;
+        position: relative;
+        animation: one 10s infinite;
+        mix-blend-mode: multiply;
+    }
+    
+    .bg-shape2{
+        width: 90px;
+        height: 400px;
+        border-radius: 9999px;
+        position: relative;
+        animation: two 10s infinite;
+        mix-blend-mode: multiply;
+    }
+    
+    .bg-shape3{
+        width: 200px;
+        height: 600px;
+        border-radius: 9999px;
+        position: relative;
+        animation: three 10s infinite;
+        mix-blend-mode: multiply;
+    }
+
+    @keyframes one{
+        0%{left: 0px; top: 0px;}
+        25%{left: -100px; top: 70px;}
+        50%{left: 20px; top: 450px;}
+        75%{left: 50px; top: 400px;}
+        100%{left: 0px; top: 0px;}
+    }
+    
+    @keyframes two{
+        0%{left: 0px; top: 0px;}
+        25%{left: 50px; top: 10px;}
+        50%{left: 100px; top: 550px;}
+        75%{left: 50px; top: 400px;}
+        100%{left: 0px; top: 0px;}
+    }
+    
+    @keyframes three{
+        0%{left: 0px; top: 0px;}
+        25%{left: 100px; top: 0px;}
+        50%{left: 60px; top: 600px;}
+        75%{left: 50px; top: 200px;}
+        100%{left: 0px; top: 0px;}
+    }
+}
