@@ -19,6 +19,7 @@
     url(Fonts/PPSupplySans-Bold.woff) format('woff');
 }
 
+
 *{
     margin:0;
     padding: 0;
@@ -74,3 +75,23 @@
     display: flex;
     justify-content: space-around;
   }
+
+  h1{
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-family: "PPSuply Bold";
+    font-size: 8rem;
+    color: #e196b2;
+    mix-blend-mode: none;
+}
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 2.8rem;
+    }
+}
