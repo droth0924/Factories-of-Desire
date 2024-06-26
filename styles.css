@@ -88,6 +88,8 @@ h1{
     font-size: 8rem;
     color: #e4b9c9;
     mix-blend-mode: lighten;
+    appearance: auto;
+    -webkit-appearance: none;
 }
 
 /*BACKGROUND GRADIENT*/
@@ -180,5 +182,7 @@ h1{
 @media only screen and (max-width: 600px){
     h1{
         font-size: 2.8rem;
+        appearance: auto;
+        -webkit-appearance: none;
     }
 }
